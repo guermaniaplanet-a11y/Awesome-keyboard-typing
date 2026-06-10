@@ -7,7 +7,8 @@
    * Test https://typenconquer.io/ 
    * Test https://typetest.io/ 
    * Test https://typing-speed-test.aoeu.eu/  
-   * Test https://monkey-type.com/ 
+   * Test https://monkey-type.com/
+   * Test https://typingtest.one/ - Multilingual typing test (English, French, Arabic, Spanish, German, Hindi)
 
 ## Webapp code
    * Test http://www.speedcoder.net/  
