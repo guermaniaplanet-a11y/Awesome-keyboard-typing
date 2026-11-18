@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (353 skills).
+This repository ships a full skill library in `.claude/skills/` (354 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -168,6 +168,9 @@ These rules are mandatory for every task in this repository:
   Catalog of ~5,000 MCP servers by category. Use it when a task needs to connect
   to an external app, API or data source; add the chosen server to `.mcp.json`
   (keys via `${ENV_VAR}`), commit and push.
+- **Free data APIs** (public-apis/public-apis): `public-apis`. Directory of ~2,500
+  free public APIs in 52 categories. Use it whenever a site, tool, bot, automation
+  or video needs external data (weather, maps, space, animals, news, currency...).
 - **Reverse engineering**: `reverse-engineer-anything` (morluto/rea).
 
 ## 2. Working rules
