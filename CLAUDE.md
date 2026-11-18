@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (352 skills).
+This repository ships a full skill library in `.claude/skills/` (353 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -164,6 +164,10 @@ These rules are mandatory for every task in this repository:
   Figma (figma-*), audio (speech, venice-audio-*, ai-music-album) and more.
   Duplicates already covered above keep the earlier version: ad-creative,
   brainstorming, copywriting, marketing-psychology, slides, ui-ux-pro-max.
+- **MCP server finder** (punkpeye/awesome-mcp-servers): `mcp-server-finder`.
+  Catalog of ~5,000 MCP servers by category. Use it when a task needs to connect
+  to an external app, API or data source; add the chosen server to `.mcp.json`
+  (keys via `${ENV_VAR}`), commit and push.
 - **Reverse engineering**: `reverse-engineer-anything` (morluto/rea).
 
 ## 2. Working rules
