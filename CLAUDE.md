@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (178 skills).
+This repository ships a full skill library in `.claude/skills/` (179 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -133,6 +133,10 @@ These rules are mandatory for every task in this repository:
   PERSISTENCE: this session is temporary. After Adil approves, copy the new skill
   into this repo's `.claude/skills/`, add it to this list, commit and push, so it
   is still there next session.
+- **Free services finder** (ripienaar/free-for-dev): `free-for-dev`. Whenever a
+  task needs an external service (hosting, database, email, auth, CDN, storage,
+  AI API, forms, analytics...), check this list first and prefer a free tier
+  before proposing anything paid. Verify current limits on the provider's site.
 - **Reverse engineering**: `reverse-engineer-anything` (morluto/rea).
 
 ## 2. Working rules
