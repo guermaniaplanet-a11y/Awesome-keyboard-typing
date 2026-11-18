@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (152 skills).
+This repository ships a full skill library in `.claude/skills/` (153 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -55,6 +55,12 @@ These rules are mandatory for every task in this repository:
   server fails because the key is missing, tell Adil once and continue without it.
 - **UI / UX / design** (ui-ux-pro-max): ui-ux-pro-max, ui-styling, design,
   design-system, brand, banner-design, slides.
+- **Codebase knowledge graph** (Graphify-Labs/graphify): `graphify`. In any repo
+  with real code, on the first coding task of a session run `/graphify .` (or
+  `--update` if `graphify-out/` exists), then read `graphify-out/GRAPH_REPORT.md`
+  and query the graph instead of grepping every file (saves tokens). The Python
+  package `graphifyy` installs itself on first run. Commit `graphify-out/` only
+  for private repos; in public repos add it to .gitignore.
 - **Agent & context engineering**: context-fundamentals, context-optimization,
   context-compression, context-degradation, memory-systems, multi-agent-patterns,
   tool-design, filesystem-context, hosted-agents, evaluation, advanced-evaluation,
