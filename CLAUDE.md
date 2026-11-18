@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (180 skills).
+This repository ships a full skill library in `.claude/skills/` (181 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -141,6 +141,9 @@ These rules are mandatory for every task in this repository:
   task needs an external service (hosting, database, email, auth, CDN, storage,
   AI API, forms, analytics...), check this list first and prefer a free tier
   before proposing anything paid. Verify current limits on the provider's site.
+- **Resource finder** (sindresorhus/awesome): `awesome-lists`. Index of 600+
+  curated lists. Use it to find the best tools, libraries, APIs and resources on
+  any topic before choosing or building something.
 - **Reverse engineering**: `reverse-engineer-anything` (morluto/rea).
 
 ## 2. Working rules
