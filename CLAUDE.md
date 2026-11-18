@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (143 skills).
+This repository ships a full skill library in `.claude/skills/` (152 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -79,6 +79,16 @@ These rules are mandatory for every task in this repository:
   findings to the repo (some repos are public: findings would expose the holes);
   deliver the report to Adil as a file and fix the issues. A full audit launches
   many sub-agents: start with a focused scope.
+- **AI pentesting** (usestrix/strix, 9 skills): penetration-testing-with-strix,
+  web-app-penetration-testing, api-security-testing, owasp-top-10-testing,
+  application-security-testing, find-security-vulnerabilities-in-code,
+  fix-security-vulnerabilities-with-strix, ci-security-scanning-with-strix,
+  managed-pentesting-with-strix. Needs Docker, Python 3.12+ and an LLM API key.
+  SCOPE RULE (strict): only test Adil's own repos and domains (typingtest.one,
+  tikwell.com, thecatinsurance.com, arabpdf.com, his Lovable/Vercel apps). Never
+  scan a third-party site. Live (black-box) scans of production sites: tell Adil
+  first, since they send real attack traffic. Same reporting rule as
+  security-audit: never commit findings.
 - **WhatsApp automation** (gokapso/agent-skills, Kapso platform): integrate-whatsapp
   (connect a number, webhooks, send text/templates/media/interactive messages,
   WhatsApp Flows), integrate-whatsapp-calling, automate-whatsapp (workflows,
