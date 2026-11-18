@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (130 skills).
+This repository ships a full skill library in `.claude/skills/` (143 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -30,6 +30,12 @@ These rules are mandatory for every task in this repository:
   for programmatic Shorts / explainers / animated captions rendered to MP4;
   openfilm when a live visual editor is wanted. Use only real, credible visuals
   for Guermania Planet (no fantasy / fake CGI).
+- **React video** (remotion-dev/skills, official): remotion-create,
+  remotion-best-practices, remotion-captions, remotion-multimedia, remotion-render,
+  remotion-studio, remotion-maps, remotion-markup, remotion-interactivity,
+  remotion-saas, remotion-docs, remotion-upgrade, remotion-license. Use when a
+  project already uses Remotion, or for data-driven / templated videos generated at
+  scale from code (React). For new standalone videos, prefer hyperframes.
 - **Marketing / SEO / growth** (coreyhaines31/marketingskills): seo-audit, ai-seo,
   programmatic-seo, schema, site-architecture, link-building, copywriting,
   copy-editing, cro, signup, onboarding, popups, paywalls, pricing, offers, ads,
