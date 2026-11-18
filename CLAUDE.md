@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (92 skills).
+This repository ships a full skill library in `.claude/skills/` (93 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -18,6 +18,10 @@ These rules are mandatory for every task in this repository:
 - **Video / Shorts production**: `viral-story-engine`, `video`, `yt-*` (yt-script,
   yt-package, yt-edit, yt-comment, yt-plan, yt-viral, yt-retention, yt-shorts,
   yt-seo, yt-chapters, yt-audit). YouTube voice template: `.claude/templates/youtube/`.
+- **AI video agent / editing**: `openfilm` (openfilm/openfilm): make any video
+  (Shorts, explainers, launch films, music videos, motion graphics) as a web page,
+  then edit, cut, grade and render it. Needs Node 22.2+ and ffmpeg; launch with
+  `npx -y openfilm@latest`. Use it for any video creation or editing task.
 - **Marketing / SEO / growth** (coreyhaines31/marketingskills): seo-audit, ai-seo,
   programmatic-seo, schema, site-architecture, link-building, copywriting,
   copy-editing, cro, signup, onboarding, popups, paywalls, pricing, offers, ads,
