@@ -53,6 +53,12 @@ These rules are mandatory for every task in this repository:
   new UI component, together with impeccable and ui-ux-pro-max. Needs the
   environment variable MAGIC_API_KEY (never write the key in a file). If the
   server fails because the key is missing, tell Adil once and continue without it.
+- **Up-to-date library docs MCP** (upstash/context7, in `.mcp.json`): the
+  `context7` MCP server returns current, version-specific documentation and code
+  examples for libraries and frameworks (React, Next.js, Tailwind, Supabase,
+  Remotion, etc.). Use it BEFORE writing code that depends on a library API, so
+  the code matches the current version instead of outdated memory. Works without
+  a key (lower rate limits).
 - **UI / UX / design** (ui-ux-pro-max): ui-ux-pro-max, ui-styling, design,
   design-system, brand, banner-design, slides.
 - **Codebase knowledge graph** (Graphify-Labs/graphify): `graphify`. In any repo
