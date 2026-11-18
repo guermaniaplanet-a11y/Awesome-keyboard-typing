@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (121 skills).
+This repository ships a full skill library in `.claude/skills/` (130 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -22,6 +22,14 @@ These rules are mandatory for every task in this repository:
   (Shorts, explainers, launch films, music videos, motion graphics) as a web page,
   then edit, cut, grade and render it. Needs Node 22.2+ and ffmpeg; launch with
   `npx -y openfilm@latest`. Use it for any video creation or editing task.
+- **HTML-to-video** (heygen-com/hyperframes): `hyperframes` (router, read it
+  first for any video / animation / motion-graphics request), hyperframes-cli,
+  hyperframes-registry, media-use, slideshow, style-sampling, figma,
+  reverse-any-video, remotion-to-hyperframes. Renders MP4 from HTML, CLI via
+  `npx hyperframes`. Choose between hyperframes and openfilm per task: hyperframes
+  for programmatic Shorts / explainers / animated captions rendered to MP4;
+  openfilm when a live visual editor is wanted. Use only real, credible visuals
+  for Guermania Planet (no fantasy / fake CGI).
 - **Marketing / SEO / growth** (coreyhaines31/marketingskills): seo-audit, ai-seo,
   programmatic-seo, schema, site-architecture, link-building, copywriting,
   copy-editing, cro, signup, onboarding, popups, paywalls, pricing, offers, ads,
