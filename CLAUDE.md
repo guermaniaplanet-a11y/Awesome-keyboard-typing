@@ -61,8 +61,10 @@ These rules are mandatory for every task in this repository:
   security audit with independently verified findings (web apps, APIs, bots,
   automations). Use when asked for a security review, before launching or
   deploying anything public, and after adding auth, payments, forms or API keys.
-  Save the report inside this repo (e.g. `security-audits/`) so it survives the
-  session. A full audit launches many sub-agents: start with a focused scope.
+  Keep the skill's own output directory (outside the repo). NEVER commit audit
+  findings to the repo (some repos are public: findings would expose the holes);
+  deliver the report to Adil as a file and fix the issues. A full audit launches
+  many sub-agents: start with a focused scope.
 - **WhatsApp automation** (gokapso/agent-skills, Kapso platform): integrate-whatsapp
   (connect a number, webhooks, send text/templates/media/interactive messages,
   WhatsApp Flows), integrate-whatsapp-calling, automate-whatsapp (workflows,
