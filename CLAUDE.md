@@ -47,6 +47,12 @@ These rules are mandatory for every task in this repository:
 - **Frontend design quality** (pbakaus/impeccable): `impeccable`: design, redesign,
   critique, audit, polish or animate any website, landing page, dashboard, app UI
   or component. Use it on every frontend task, together with ui-ux-pro-max.
+- **UI components MCP** (21st-dev/magic-mcp, in `.mcp.json`): the `magic` MCP
+  server generates polished React/Tailwind UI components inspired by the 21st.dev
+  library, searches logos (JSX/TSX/SVG) and refines existing UI. Use it for any
+  new UI component, together with impeccable and ui-ux-pro-max. Needs the
+  environment variable MAGIC_API_KEY (never write the key in a file). If the
+  server fails because the key is missing, tell Adil once and continue without it.
 - **UI / UX / design** (ui-ux-pro-max): ui-ux-pro-max, ui-styling, design,
   design-system, brand, banner-design, slides.
 - **Agent & context engineering**: context-fundamentals, context-optimization,
