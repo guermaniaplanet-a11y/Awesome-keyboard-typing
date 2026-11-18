@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (153 skills).
+This repository ships a full skill library in `.claude/skills/` (178 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -82,6 +82,18 @@ These rules are mandatory for every task in this repository:
   design sign-off), decide yourself with the best reasonable choice, note it, and
   continue. Only stop for logins, payments or irreversible actions.
   References to `superpowers:<name>` mean the skill `<name>` in `.claude/skills/`.
+- **Production engineering lifecycle** (addyosmani/agent-skills, 25 skills):
+  using-agent-skills (router), idea-refine, spec-driven-development,
+  planning-and-task-breakdown, incremental-implementation, source-driven-development,
+  constraint-driven-development, doubt-driven-development, frontend-ui-engineering,
+  api-and-interface-design, accessibility-engineering, performance-optimization,
+  security-and-hardening, observability-and-instrumentation, debugging-and-error-recovery,
+  code-review-and-quality, code-simplification, browser-testing-with-devtools,
+  ci-cd-and-automation, git-workflow-and-versioning, deprecation-and-migration,
+  documentation-and-adrs, context-engineering, shipping-and-launch, interview-me.
+  Shared checklists live in .  here
+  is the superpowers one (same role). Use  only when Adil asks to be
+  interviewed; otherwise the autonomy rule applies.
 - **Lean code** (DietrichGebert/ponytail): `ponytail` is ALWAYS ON for every
   coding task (write, refactor, fix): smallest complete change, reuse existing
   code / stdlib / native platform features, no unrequested abstractions, tests for
