@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (109 skills).
+This repository ships a full skill library in `.claude/skills/` (115 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -50,6 +50,13 @@ These rules are mandatory for every task in this repository:
   design sign-off), decide yourself with the best reasonable choice, note it, and
   continue. Only stop for logins, payments or irreversible actions.
   References to `superpowers:<name>` mean the skill `<name>` in `.claude/skills/`.
+- **Lean code** (DietrichGebert/ponytail): `ponytail` is ALWAYS ON for every
+  coding task (write, refactor, fix): smallest complete change, reuse existing
+  code / stdlib / native platform features, no unrequested abstractions, tests for
+  risky logic. Also: ponytail-review (review a diff), ponytail-audit (whole-repo
+  health check), ponytail-debt, ponytail-gain, ponytail-help.
+  Ponytail never overrides: the Arabic reply rule, verification before reporting
+  done, or the autonomy rule.
 - **Reverse engineering**: `reverse-engineer-anything` (morluto/rea).
 
 ## 2. Working rules
