@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (120 skills).
+This repository ships a full skill library in `.claude/skills/` (121 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -57,6 +57,12 @@ These rules are mandatory for every task in this repository:
   health check), ponytail-debt, ponytail-gain, ponytail-help.
   Ponytail never overrides: the Arabic reply rule, verification before reporting
   done, or the autonomy rule.
+- **Security audit** (cloudflare/security-audit-skill): `security-audit`: 6-phase
+  security audit with independently verified findings (web apps, APIs, bots,
+  automations). Use when asked for a security review, before launching or
+  deploying anything public, and after adding auth, payments, forms or API keys.
+  Save the report inside this repo (e.g. `security-audits/`) so it survives the
+  session. A full audit launches many sub-agents: start with a focused scope.
 - **WhatsApp automation** (gokapso/agent-skills, Kapso platform): integrate-whatsapp
   (connect a number, webhooks, send text/templates/media/interactive messages,
   WhatsApp Flows), integrate-whatsapp-calling, automate-whatsapp (workflows,
