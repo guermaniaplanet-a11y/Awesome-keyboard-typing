@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (108 skills).
+This repository ships a full skill library in `.claude/skills/` (109 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -30,6 +30,9 @@ These rules are mandatory for every task in this repository:
   competitors, marketing-plan, and more.
 - **Writing quality**: `stop-slop` (remove AI writing tells). Apply it to any
   public-facing text (site copy, descriptions, posts, scripts).
+- **Frontend design quality** (pbakaus/impeccable): `impeccable`: design, redesign,
+  critique, audit, polish or animate any website, landing page, dashboard, app UI
+  or component. Use it on every frontend task, together with ui-ux-pro-max.
 - **UI / UX / design** (ui-ux-pro-max): ui-ux-pro-max, ui-styling, design,
   design-system, brand, banner-design, slides.
 - **Agent & context engineering**: context-fundamentals, context-optimization,
