@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (115 skills).
+This repository ships a full skill library in `.claude/skills/` (116 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -57,6 +57,14 @@ These rules are mandatory for every task in this repository:
   health check), ponytail-debt, ponytail-gain, ponytail-help.
   Ponytail never overrides: the Arabic reply rule, verification before reporting
   done, or the autonomy rule.
+- **Skill discovery** (vercel-labs/skills): `find-skills`. When a task would clearly
+  benefit from a capability none of the skills above covers, search skills.sh with
+  `npx skills find <query>` and propose the best matches to Adil in one short
+  message (name, source, installs, what it adds). Installing new third-party code
+  is the one exception to the autonomy rule: install only after Adil says yes.
+  PERSISTENCE: this session is temporary. After Adil approves, copy the new skill
+  into this repo's `.claude/skills/`, add it to this list, commit and push, so it
+  is still there next session.
 - **Reverse engineering**: `reverse-engineer-anything` (morluto/rea).
 
 ## 2. Working rules
