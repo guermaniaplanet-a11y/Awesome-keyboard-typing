@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (181 skills).
+This repository ships a full skill library in `.claude/skills/` (189 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -144,6 +144,13 @@ These rules are mandatory for every task in this repository:
 - **Resource finder** (sindresorhus/awesome): `awesome-lists`. Index of 600+
   curated lists. Use it to find the best tools, libraries, APIs and resources on
   any topic before choosing or building something.
+- **AI app templates** (Shubhamsaboo/awesome-llm-apps): `llm-app-templates`
+  (catalog of 100+ working AI agents, RAG, voice, multi-agent, MCP and chat-with-X
+  apps; start any AI app/bot from the closest template) plus 7 agent skills:
+  first-reader (simulated readers test a draft: scripts, articles, descriptions),
+  thinking-out-loud (turns a voice ramble into a brief), scope-creep-detector,
+  commit-archaeologist, dependency-doctor, project-graveyard,
+  advisor-orchestrator-worker.
 - **Reverse engineering**: `reverse-engineer-anything` (morluto/rea).
 
 ## 2. Working rules
