@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (189 skills).
+This repository ships a full skill library in `.claude/skills/` (352 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -151,6 +151,19 @@ These rules are mandatory for every task in this repository:
   thinking-out-loud (turns a voice ramble into a brief), scope-creep-detector,
   commit-archaeologist, dependency-doctor, project-graveyard,
   advisor-orchestrator-worker.
+- **Design & creative library** (nexu-io/open-design, 163 skills): image
+  generation and editing (fal-*, venice-*, imagegen*, imagen, nanobanana-ppt,
+  image-enhancer, replicate), video and motion (sora, remotion, motion-design,
+  motion-lab, gsap-*, frame-* templates, video-hyperframes, youtube-clipper,
+  video-downloader, vfx-text-cursor, review-animations), design direction
+  (creative-director, design-brief, design-review, taste-skill, brand-extract,
+  brandkit, brand-guidelines, color-expert, frontend-design, shadcn-ui, threejs,
+  web-clone, image-to-code-skill), decks and docs (pptx*, deck-*, ppt-keynote,
+  pdf, minimax-docx, minimax-pdf, resume-modern), social cards and posters
+  (card-*, social-*-card, poster-hero, screenshots-marketing, gif-sticker-maker),
+  Figma (figma-*), audio (speech, venice-audio-*, ai-music-album) and more.
+  Duplicates already covered above keep the earlier version: ad-creative,
+  brainstorming, copywriting, marketing-psychology, slides, ui-ux-pro-max.
 - **Reverse engineering**: `reverse-engineer-anything` (morluto/rea).
 
 ## 2. Working rules
