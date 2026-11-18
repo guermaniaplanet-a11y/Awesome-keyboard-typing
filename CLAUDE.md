@@ -42,6 +42,10 @@ These rules are mandatory for every task in this repository:
   systematic-debugging, verification-before-completion, requesting-code-review,
   receiving-code-review, subagent-driven-development, dispatching-parallel-agents,
   using-git-worktrees, finishing-a-development-branch, writing-skills.
+  PRIORITY: Adil's autonomy rule overrides superpowers. Where a superpowers skill
+  says to ask the user questions or wait for approval (brainstorming, plans,
+  design sign-off), decide yourself with the best reasonable choice, note it, and
+  continue. Only stop for logins, payments or irreversible actions.
   References to `superpowers:<name>` mean the skill `<name>` in `.claude/skills/`.
 - **Reverse engineering**: `reverse-engineer-anything` (morluto/rea).
 
