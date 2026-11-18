@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (116 skills).
+This repository ships a full skill library in `.claude/skills/` (120 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -57,6 +57,12 @@ These rules are mandatory for every task in this repository:
   health check), ponytail-debt, ponytail-gain, ponytail-help.
   Ponytail never overrides: the Arabic reply rule, verification before reporting
   done, or the autonomy rule.
+- **WhatsApp automation** (gokapso/agent-skills, Kapso platform): integrate-whatsapp
+  (connect a number, webhooks, send text/templates/media/interactive messages,
+  WhatsApp Flows), integrate-whatsapp-calling, automate-whatsapp (workflows,
+  triggers, AI agent nodes, functions), observe-whatsapp (delivery debugging,
+  health checks). Needs a Kapso account and KAPSO_API_KEY; if missing, ask Adil
+  once for the key (login is the one allowed interruption).
 - **Skill discovery** (vercel-labs/skills): `find-skills`. When a task would clearly
   benefit from a capability none of the skills above covers, search skills.sh with
   `npx skills find <query>` and propose the best matches to Adil in one short
