@@ -2,7 +2,7 @@
 
 ## 1. Skills: use them automatically, never ask
 
-This repository ships a full skill library in `.claude/skills/` (93 skills).
+This repository ships a full skill library in `.claude/skills/` (108 skills).
 These rules are mandatory for every task in this repository:
 
 1. Before starting ANY task, review the names and descriptions of all available
@@ -36,6 +36,13 @@ These rules are mandatory for every task in this repository:
   context-compression, context-degradation, memory-systems, multi-agent-patterns,
   tool-design, filesystem-context, hosted-agents, evaluation, advanced-evaluation,
   project-development, harness-engineering, long-horizon-prompting, and more.
+- **Software engineering workflow** (obra/superpowers): `using-superpowers`
+  (read it FIRST at the start of any coding / website / app / automation task),
+  brainstorming, writing-plans, executing-plans, test-driven-development,
+  systematic-debugging, verification-before-completion, requesting-code-review,
+  receiving-code-review, subagent-driven-development, dispatching-parallel-agents,
+  using-git-worktrees, finishing-a-development-branch, writing-skills.
+  References to `superpowers:<name>` mean the skill `<name>` in `.claude/skills/`.
 - **Reverse engineering**: `reverse-engineer-anything` (morluto/rea).
 
 ## 2. Working rules
