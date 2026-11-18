@@ -91,8 +91,8 @@ These rules are mandatory for every task in this repository:
   code-review-and-quality, code-simplification, browser-testing-with-devtools,
   ci-cd-and-automation, git-workflow-and-versioning, deprecation-and-migration,
   documentation-and-adrs, context-engineering, shipping-and-launch, interview-me.
-  Shared checklists live in .  here
-  is the superpowers one (same role). Use  only when Adil asks to be
+  Shared checklists live in `.claude/references/`. `test-driven-development` here
+  is the superpowers one (same role). Use `interview-me` only when Adil asks to be
   interviewed; otherwise the autonomy rule applies.
 - **Lean code** (DietrichGebert/ponytail): `ponytail` is ALWAYS ON for every
   coding task (write, refactor, fix): smallest complete change, reuse existing
